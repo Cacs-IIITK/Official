@@ -16,6 +16,12 @@
 # production
 /build
 
+
+
+app/pages/exp1
+app/pages/experiment
+app/pages/node_modules 
+
 # misc
 .DS_Store
 *.pem

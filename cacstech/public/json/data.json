@@ -1,0 +1,15 @@
+{
+    "eventsImages": [
+        {
+            "id" : 1,
+            "src" : "url1"
+        },
+        {
+            "id" : 2,
+            "src" : "url2"
+        }
+
+    
+    
+    ]
+}
