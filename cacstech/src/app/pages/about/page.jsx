@@ -22,7 +22,7 @@ export default function About(){
                     
 
                 <div className="para">
-                    <h2>someTextHere</h2>
+                    <h2>Creative Arts and Cultural Society</h2>
                     <p>
                     You tell me about shinchan Copilot Shinchan, also known as Crayon Shin-chan, is a popular Japanese manga and anime series created by Yoshito Usui1. The series follows the adventures of a five-year-old boy named Shin-chan
                     </p>

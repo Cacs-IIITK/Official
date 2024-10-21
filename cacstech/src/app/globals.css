@@ -68,3 +68,16 @@ body {
   margin: auto;
   padding-top: 60px;
 }
+
+
+@media (max-width:1200px){
+  .sec-wrap{
+    width:90%;
+  }
+}
+
+@media (max-width:800px){
+  .sec-wrap{
+    width:100%;
+  }
+ }

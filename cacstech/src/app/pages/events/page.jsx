@@ -80,32 +80,32 @@ export default function Events() {
                 <div className="sec-wrap">
                     <h1 className="head1">Events</h1>
 
+                <Carousel className="carousel-box" >
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://via.placeholder.com/800x400"
+                            alt="First slide"
+                        />
+                    
+                    
+                    </Carousel.Item>
+
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="https://via.placeholder.com/800x400"
+                            alt="First slide"
+                        />
+                    
+                    
+                    </Carousel.Item>
+                    
+                </Carousel>
                 </div>
             </section>
 
 
-            <Carousel className="carousel-box" >
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://via.placeholder.com/800x400"
-                        alt="First slide"
-                    />
-                   
-                   
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://via.placeholder.com/800x400"
-                        alt="First slide"
-                    />
-                   
-                   
-                </Carousel.Item>
-                
-            </Carousel>
 
 
 

@@ -6,8 +6,14 @@
 
 
 
-.carousel-box{
-    width: 80%;
+.carousel-box{ 
     margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+@media (max-width:800px){
+    .carousel-box{ 
+        width: 90%;
+    }
+   }
