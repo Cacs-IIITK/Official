@@ -1,8 +1,7 @@
-import Image from "next/image";
-export default function HeroFormElement({ imageurl }: { imageurl: string }) {
+export default function HeroFormElement() {
   return (
     <div
-      className="bg-cover bg-center w-screen h-[20rem] bg-no-repeat flex flex-col justify-end pl-64 pr-64"
+      className="bg-cover bg-center w-screen h-[15rem] bg-no-repeat flex flex-col justify-end pl-64 pr-64"
       style={{
         backgroundImage:
           "url('https://img.freepik.com/premium-photo/crowd-people-city-street-blurred-background-people-walking-city-street_919279-456.jpg')",
@@ -22,3 +21,4 @@ export default function HeroFormElement({ imageurl }: { imageurl: string }) {
     </div>
   );
 }
+
