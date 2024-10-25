@@ -102,6 +102,15 @@ export default function Events() {
                     </Carousel.Item>
                     
                 </Carousel>
+
+
+                <div className="events-box">
+                    <h2>Garba Gravity - A Navratri Extravaganza</h2>
+                    Garba Gravity was an unforgettable two-day celebration of music, dance, and culture during Navratri at IIIT Kota. The event kicked off with a vibrant DJ Night on the first day, where the campus came alive with pulsating beats and high energy, as students danced the night away under the stars. The second day was all about tradition, with an exhilarating Garba Night. Students dressed in traditional attire, filling the night with colorful dance moves, joy, and the festive spirit of Navratri. 
+
+                    <p></p>
+                </div>
+
                 </div>
             </section>
 

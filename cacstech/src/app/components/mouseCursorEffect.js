@@ -15,6 +15,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 import "./mouseCursorEffect.css";
+import { transcode } from "buffer";
 
 
 
@@ -53,6 +54,8 @@ export default function Cursor(){
         
                 // console.log(target)
                 
+                const isTargetFocus1 = 
+                target?.closest('focus');
         
                 gsap.to(cursor, {
                     x: x + 3,
@@ -62,6 +65,7 @@ export default function Cursor(){
                     ease: 'power4',
                     opacity: isTargetLinkOrBtn ? 0.6 : 1,
                     transform: `scale(${isTargetLinkOrBtn ? 3.5 : 1})`
+                    
                 })
 
                 

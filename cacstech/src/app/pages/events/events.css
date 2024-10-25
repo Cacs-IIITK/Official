@@ -12,8 +12,27 @@
     overflow: hidden;
 }
 
+
+.events-box{
+    width: 70%;
+    margin-top: 60px;
+    margin-left: 15px;
+}
+
+.events-box h2{color: var(--color3);
+font-weight: 600; }
+
 @media (max-width:800px){
     .carousel-box{ 
         width: 90%;
+    }
+   }
+
+
+   @media (max-width:1000px){
+    .events-box{
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
     }
    }
